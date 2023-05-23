@@ -23,10 +23,6 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 
-body {
-	line-height: 1;
-}
-
 ol, ul {
 	list-style: none;
 }
@@ -50,3 +46,178 @@ table {
 
 
 /* Write your css below here */
+body {
+	background-color: #f7f7f7;
+	color: #333;
+	font-family: Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
+  }
+  
+  header {
+	background-color: burlywood;
+	padding: 20px;
+  }
+
+  h1 {
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	color: firebrick;
+	font-size: 35px;
+	cursor: pointer;
+  }
+  
+  nav ul {
+	display: flex;
+	justify-content: flex-end;
+	list-style-type: none;
+	gap: 50px
+  }
+
+  nav a {
+	color: whitesmoke;
+	text-decoration: none;
+  }
+  
+  div > p a {
+	text-decoration: none;
+	color: green;
+  }
+
+  div > p a:hover {
+	color: palevioletred;
+  }
+  
+  nav a:hover {
+	color: #14120e;
+  }
+  
+  .main-content {
+	display: flex;
+	width: fit-content;
+	margin-left: auto;
+	padding: 20px;
+  }
+
+  .right-column {
+	  background-color: beige; 
+	  width: 300px;
+	  padding: 30px; 
+	  color: darksalmon; 
+	}
+	
+	.left-column {
+	  width: 800px;
+    background-color: azure; 
+    padding: 50px; 
+  }
+
+  .main-header {
+    display: flex;
+	padding-left: 30px;	
+  }
+
+  .main-header > h1 {
+	padding-left: 10px;
+  }
+
+  .nav-header {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 500px;
+  }
+
+  h2 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 40px;
+	color: crimson;
+	font-weight: 600px;
+  }
+  
+  h3 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 35px;
+	color: darkgoldenrod;
+	font-weight: 500px;
+  }
+
+  h4 {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 25px;
+	color: goldenrod;
+  }
+
+  h5 {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 30px;
+	color: coral;
+	font-weight: 700px;
+  }
+
+  h6 {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+	color: darkorange;
+	font-weight: 800px;
+  }
+
+
+  aside li a {
+	text-decoration: none;
+	color: lightsalmon;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  aside li a:hover {
+	color: mediumvioletred;
+  }
+
+  div > h6 {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	color: #550606;
+  }
+
+  
+
+  input[type="text"] {
+	background-color: #fbeb73;
+	border-radius: 10px;
+	border: none;
+	width: 200px;
+	height: 35px;
+
+  }
+
+  input[type="submit"] {
+	margin-top: 30px;
+	width: 70px;
+	height: 35px;
+	color: #faf3f8;
+	background-color: #d77d1d;
+	text-shadow: #550606;
+	border-radius: 10px;
+	border: none;
+  }
+
+ input[placeholder] {
+	background-color: #f9de8d;
+	border: none;
+	outline: none;
+	text-align: center;
+ }
+
+ input::placeholder{
+	padding-left: 20px;
+ }
+
+  footer {
+	background-color: khaki;
+	padding: 35px;
+	text-align: center;	
+	color: brown;
+	font-size: 15px;
+  }
